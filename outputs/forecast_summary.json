@@ -1,0 +1,1133 @@
+{
+ "metrics": {
+  "holdout": "2026-09-01 to 2026-09-30",
+  "hourly_wape": {
+   "model": 0.3093975392127068,
+   "seasonal_naive": 0.48282544266281635,
+   "avg_last_4_weeks": 0.39060718899612434
+  },
+  "pool_hour_wape": {
+   "model": 0.22781816294669002,
+   "seasonal_naive": 0.37879018162474354
+  },
+  "daily_wape": {
+   "model": 0.09363520125523564,
+   "seasonal_naive": 0.21593586138764342,
+   "avg_last_4_weeks": 0.17102363401474277
+  },
+  "peak_day_wape": {
+   "model": 0.12343209135102112,
+   "seasonal_naive": 0.22832469775474956,
+   "avg_last_4_weeks": 0.1875215889464594,
+   "n_days": 19
+  },
+  "daily_interval": {
+   "p10": 0.8799531793452376,
+   "p90": 1.1900686722986125
+  },
+  "feature_gain_share": {
+   "level": 0.7532,
+   "rm4": 0.1054,
+   "service": 0.026,
+   "month_start": 0.02,
+   "appt_booked": 0.0183,
+   "dow": 0.0103,
+   "lag7": 0.01,
+   "post_closure": 0.0099,
+   "hour": 0.0075,
+   "closed_days_before": 0.0072,
+   "pre_holiday": 0.0072,
+   "closed_days_after": 0.006,
+   "branch": 0.0058,
+   "life_cert": 0.0057,
+   "festival": 0.0029,
+   "crop_season": 0.0023,
+   "year_end": 0.0013,
+   "fee_season": 0.0009
+  },
+  "driver_importance": {
+   "recent": 0.5645,
+   "base": 0.1744,
+   "appointments": 0.0959,
+   "holiday": 0.0703,
+   "month_start": 0.0387,
+   "festival": 0.0201,
+   "life_cert": 0.0121,
+   "crop": 0.0107,
+   "fee": 0.0101,
+   "year_end": 0.0033
+  }
+ },
+ "days": {
+  "2026-10-01|B01": {
+   "total": 480.3,
+   "normal": 266.3,
+   "typical_same_weekday": 264.5,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "First working day of the month: pensions and salaries credited",
+     "value": 144.6
+    },
+    {
+     "key": "holiday",
+     "label": "Branch closed next day (Gandhi Jayanti): people finish cash and remittance work before it",
+     "value": 43.7
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 38.0
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -11.3
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -1.0
+    }
+   ],
+   "calendar": {
+    "dow": 3,
+    "dom": 1,
+    "month": 10,
+    "month_start": 1,
+    "pre_holiday": 1,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": "Gandhi Jayanti"
+   }
+  },
+  "2026-10-01|B02": {
+   "total": 243.7,
+   "normal": 187.3,
+   "typical_same_weekday": 191.4,
+   "drivers": [
+    {
+     "key": "holiday",
+     "label": "Branch closed next day (Gandhi Jayanti): people finish cash and remittance work before it",
+     "value": 26.8
+    },
+    {
+     "key": "month_start",
+     "label": "First working day of the month: pensions and salaries credited",
+     "value": 25.7
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 7.5
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -3.6
+    }
+   ],
+   "calendar": {
+    "dow": 3,
+    "dom": 1,
+    "month": 10,
+    "month_start": 1,
+    "pre_holiday": 1,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": "Gandhi Jayanti"
+   }
+  },
+  "2026-10-01|B03": {
+   "total": 425.2,
+   "normal": 231.3,
+   "typical_same_weekday": 253.5,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "First working day of the month: pensions and salaries credited",
+     "value": 135.5
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 38.4
+    },
+    {
+     "key": "holiday",
+     "label": "Branch closed next day (Gandhi Jayanti): people finish cash and remittance work before it",
+     "value": 37.6
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -10.3
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -7.3
+    }
+   ],
+   "calendar": {
+    "dow": 3,
+    "dom": 1,
+    "month": 10,
+    "month_start": 1,
+    "pre_holiday": 1,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": "Gandhi Jayanti"
+   }
+  },
+  "2026-10-01|B04": {
+   "total": 281.4,
+   "normal": 165.4,
+   "typical_same_weekday": 181.9,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "First working day of the month: pensions and salaries credited",
+     "value": 65.4
+    },
+    {
+     "key": "holiday",
+     "label": "Branch closed next day (Gandhi Jayanti): people finish cash and remittance work before it",
+     "value": 26.7
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 12.7
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 11.2
+    }
+   ],
+   "calendar": {
+    "dow": 3,
+    "dom": 1,
+    "month": 10,
+    "month_start": 1,
+    "pre_holiday": 1,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": "Gandhi Jayanti"
+   }
+  },
+  "2026-10-01|B05": {
+   "total": 158.5,
+   "normal": 119.0,
+   "typical_same_weekday": 103.9,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "First working day of the month: pensions and salaries credited",
+     "value": 32.3
+    },
+    {
+     "key": "holiday",
+     "label": "Branch closed next day (Gandhi Jayanti): people finish cash and remittance work before it",
+     "value": 21.2
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -15.9
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 7.7
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -5.9
+    }
+   ],
+   "calendar": {
+    "dow": 3,
+    "dom": 1,
+    "month": 10,
+    "month_start": 1,
+    "pre_holiday": 1,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": "Gandhi Jayanti"
+   }
+  },
+  "2026-10-03|B01": {
+   "total": 508.8,
+   "normal": 308.6,
+   "typical_same_weekday": 322.9,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Second working day of the month: pension and salary rush continues",
+     "value": 137.1
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 56.3
+    },
+    {
+     "key": "holiday",
+     "label": "No holiday effect",
+     "value": 12.8
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -9.9
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 3.9
+    }
+   ],
+   "calendar": {
+    "dow": 5,
+    "dom": 3,
+    "month": 10,
+    "month_start": 2,
+    "pre_holiday": 0,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-03|B02": {
+   "total": 274.0,
+   "normal": 213.2,
+   "typical_same_weekday": 239.4,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Second working day of the month: pension and salary rush continues",
+     "value": 31.8
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 13.0
+    },
+    {
+     "key": "holiday",
+     "label": "No holiday effect",
+     "value": 9.7
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 4.1
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 2.3
+    }
+   ],
+   "calendar": {
+    "dow": 5,
+    "dom": 3,
+    "month": 10,
+    "month_start": 2,
+    "pre_holiday": 0,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-03|B03": {
+   "total": 463.9,
+   "normal": 263.0,
+   "typical_same_weekday": 270.0,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Second working day of the month: pension and salary rush continues",
+     "value": 139.7
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 56.1
+    },
+    {
+     "key": "holiday",
+     "label": "No holiday effect",
+     "value": 12.8
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -4.1
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -3.6
+    }
+   ],
+   "calendar": {
+    "dow": 5,
+    "dom": 3,
+    "month": 10,
+    "month_start": 2,
+    "pre_holiday": 0,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-03|B04": {
+   "total": 294.3,
+   "normal": 188.4,
+   "typical_same_weekday": 230.4,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Second working day of the month: pension and salary rush continues",
+     "value": 69.8
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 20.8
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 12.8
+    },
+    {
+     "key": "holiday",
+     "label": "No holiday effect",
+     "value": 3.6
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -1.1
+    }
+   ],
+   "calendar": {
+    "dow": 5,
+    "dom": 3,
+    "month": 10,
+    "month_start": 2,
+    "pre_holiday": 0,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-03|B05": {
+   "total": 178.6,
+   "normal": 134.5,
+   "typical_same_weekday": 128.4,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Second working day of the month: pension and salary rush continues",
+     "value": 39.1
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 12.0
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -11.4
+    },
+    {
+     "key": "holiday",
+     "label": "No holiday effect",
+     "value": 6.0
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -1.6
+    }
+   ],
+   "calendar": {
+    "dow": 5,
+    "dom": 3,
+    "month": 10,
+    "month_start": 2,
+    "pre_holiday": 0,
+    "closed_days_after": 1,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-05|B01": {
+   "total": 461.4,
+   "normal": 337.1,
+   "typical_same_weekday": 418.5,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Third working day of the month",
+     "value": 92.9
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 37.4
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -7.9
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 1.9
+    }
+   ],
+   "calendar": {
+    "dow": 0,
+    "dom": 5,
+    "month": 10,
+    "month_start": 3,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-05|B02": {
+   "total": 271.3,
+   "normal": 235.2,
+   "typical_same_weekday": 265.5,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Third working day of the month",
+     "value": 19.0
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 11.0
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 4.9
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 1.1
+    }
+   ],
+   "calendar": {
+    "dow": 0,
+    "dom": 5,
+    "month": 10,
+    "month_start": 3,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-05|B03": {
+   "total": 401.7,
+   "normal": 287.7,
+   "typical_same_weekday": 311.2,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Third working day of the month",
+     "value": 87.2
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 35.2
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -5.5
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -2.9
+    }
+   ],
+   "calendar": {
+    "dow": 0,
+    "dom": 5,
+    "month": 10,
+    "month_start": 3,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-05|B04": {
+   "total": 280.8,
+   "normal": 207.8,
+   "typical_same_weekday": 275.2,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Third working day of the month",
+     "value": 45.8
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 14.5
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 9.5
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 3.1
+    }
+   ],
+   "calendar": {
+    "dow": 0,
+    "dom": 5,
+    "month": 10,
+    "month_start": 3,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-05|B05": {
+   "total": 168.5,
+   "normal": 150.6,
+   "typical_same_weekday": 152.1,
+   "drivers": [
+    {
+     "key": "month_start",
+     "label": "Third working day of the month",
+     "value": 24.6
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -14.7
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 7.9
+    }
+   ],
+   "calendar": {
+    "dow": 0,
+    "dom": 5,
+    "month": 10,
+    "month_start": 3,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 1,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-06|B01": {
+   "total": 286.6,
+   "normal": 281.9,
+   "typical_same_weekday": 318.6,
+   "drivers": [
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 15.2
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -12.9
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 2.3
+    }
+   ],
+   "calendar": {
+    "dow": 1,
+    "dom": 6,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-06|B02": {
+   "total": 208.0,
+   "normal": 200.0,
+   "typical_same_weekday": 226.2,
+   "drivers": [
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 4.2
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": 4.2
+    }
+   ],
+   "calendar": {
+    "dow": 1,
+    "dom": 6,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-06|B03": {
+   "total": 247.5,
+   "normal": 246.8,
+   "typical_same_weekday": 275.8,
+   "drivers": [
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 14.3
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -8.7
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -4.9
+    }
+   ],
+   "calendar": {
+    "dow": 1,
+    "dom": 6,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-06|B04": {
+   "total": 185.3,
+   "normal": 177.9,
+   "typical_same_weekday": 223.2,
+   "drivers": [
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 7.1
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 3.0
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -2.7
+    }
+   ],
+   "calendar": {
+    "dow": 1,
+    "dom": 6,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-06|B05": {
+   "total": 115.8,
+   "normal": 128.1,
+   "typical_same_weekday": 121.1,
+   "drivers": [
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -12.4
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 5.1
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -4.9
+    }
+   ],
+   "calendar": {
+    "dow": 1,
+    "dom": 6,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-07|B01": {
+   "total": 266.3,
+   "normal": 268.5,
+   "typical_same_weekday": 281.4,
+   "drivers": [
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -16.7
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 14.0
+    }
+   ],
+   "calendar": {
+    "dow": 2,
+    "dom": 7,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-07|B02": {
+   "total": 189.1,
+   "normal": 187.2,
+   "typical_same_weekday": 193.0,
+   "drivers": [
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 3.8
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -2.0
+    }
+   ],
+   "calendar": {
+    "dow": 2,
+    "dom": 7,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-07|B03": {
+   "total": 227.2,
+   "normal": 231.9,
+   "typical_same_weekday": 230.1,
+   "drivers": [
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 14.1
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -11.9
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -6.9
+    }
+   ],
+   "calendar": {
+    "dow": 2,
+    "dom": 7,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-07|B04": {
+   "total": 173.0,
+   "normal": 165.8,
+   "typical_same_weekday": 173.5,
+   "drivers": [
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 7.7
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -1.6
+    },
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": 1.1
+    }
+   ],
+   "calendar": {
+    "dow": 2,
+    "dom": 7,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  },
+  "2026-10-07|B05": {
+   "total": 105.6,
+   "normal": 119.6,
+   "typical_same_weekday": 106.0,
+   "drivers": [
+    {
+     "key": "recent",
+     "label": "Recent footfall trend at this branch (last 4 weeks)",
+     "value": -13.4
+    },
+    {
+     "key": "appointments",
+     "label": "Appointments already booked for the day",
+     "value": -6.1
+    },
+    {
+     "key": "life_cert",
+     "label": "Life-certificate window for pensioners aged 80+ is open (October)",
+     "value": 5.5
+    }
+   ],
+   "calendar": {
+    "dow": 2,
+    "dom": 7,
+    "month": 10,
+    "month_start": 0,
+    "pre_holiday": 0,
+    "closed_days_after": 0,
+    "post_closure": 0,
+    "closed_days_before": 0,
+    "life_cert": 1,
+    "year_end": 0,
+    "crop_season": 0,
+    "fee_season": 0,
+    "festival": 0,
+    "festival_name": "",
+    "next_holiday": ""
+   }
+  }
+ }
+}

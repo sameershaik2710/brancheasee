@@ -1,0 +1,28 @@
+{
+ "pool_days": 345,
+ "wait_mae_min": 2.07,
+ "wait_corr": 0.865,
+ "walkout_total_obs": 1900,
+ "walkout_total_model": 1726.9,
+ "walkout_corr": 0.945,
+ "by_pool": {
+  "CASH": {
+   "obs_wait": 4.51,
+   "model_wait": 4.23,
+   "obs_walk": 606,
+   "model_walk": 618.1
+  },
+  "EXPERT": {
+   "obs_wait": 10.52,
+   "model_wait": 10.46,
+   "obs_walk": 353,
+   "model_walk": 244.6
+  },
+  "GENERAL": {
+   "obs_wait": 5.86,
+   "model_wait": 5.43,
+   "obs_walk": 941,
+   "model_walk": 864.1
+  }
+ }
+}

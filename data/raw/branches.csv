@@ -1,0 +1,6 @@
+branch_code,branch_name,branch_type,lat,lon,manager,public_hours
+B01,Jayanagar,Urban - residential,12.9299,77.5826,Suresh H,10:00-16:00
+B02,Whitefield,Urban - IT corridor,12.9698,77.75,Anjali K,10:00-16:00
+B03,Malleshwaram,Urban - residential,13.0035,77.5709,Prakash V,10:00-16:00
+B04,Hoskote,Semi-urban,13.0707,77.7982,Latha S,10:00-16:00
+B05,Devanahalli,Rural,13.2473,77.711,Kumar R,10:00-16:00

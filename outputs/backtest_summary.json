@@ -1,0 +1,65 @@
+{
+ "period": "1-30 Sep 2026 (forecast holdout)",
+ "branch_days": 115,
+ "customers": 26318,
+ "avg_wait": {
+  "before": 5.995782345534853,
+  "staffing_only": 5.745306781826265,
+  "full_plan": 5.005024713368118
+ },
+ "walkouts": {
+  "before": 1900,
+  "staffing_only": 1811,
+  "full_plan": 1303
+ },
+ "sla_breach_share": {
+  "before": 0.13731673355721188,
+  "full_plan": 0.10653107344632769
+ },
+ "overtime_hours": {
+  "before": 26.2,
+  "full_plan": 25.9
+ },
+ "redirected_customers": 2890,
+ "busiest_days": {
+  "avg_wait_before": 10.629198860145214,
+  "avg_wait_after": 8.858687466925314,
+  "walkouts_before": 640,
+  "walkouts_after": 421,
+  "p90_before": 23.767712875275752,
+  "p90_after": 21.96286388626364,
+  "n": 15
+ },
+ "by_branch": {
+  "B01": {
+   "avg_wait_before": 4.369200069811783,
+   "avg_wait_after": 3.3522000356754327,
+   "walkouts_before": 374,
+   "walkouts_after": 217
+  },
+  "B02": {
+   "avg_wait_before": 5.064471504110503,
+   "avg_wait_after": 4.60856146320018,
+   "walkouts_before": 337,
+   "walkouts_after": 242
+  },
+  "B03": {
+   "avg_wait_before": 6.8572987413747155,
+   "avg_wait_after": 5.485100555390944,
+   "walkouts_before": 532,
+   "walkouts_after": 334
+  },
+  "B04": {
+   "avg_wait_before": 7.317372697876487,
+   "avg_wait_after": 6.492275306420977,
+   "walkouts_before": 496,
+   "walkouts_after": 384
+  },
+  "B05": {
+   "avg_wait_before": 5.3434644618149125,
+   "avg_wait_after": 4.606917741860109,
+   "walkouts_before": 161,
+   "walkouts_after": 126
+  }
+ }
+}

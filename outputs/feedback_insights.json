@@ -1,0 +1,1603 @@
+{
+ "lexicon_accuracy": 0.998,
+ "theme_labels": {
+  "walkout": "Left without service",
+  "documents": "Documents / repeat visit",
+  "system_down": "System or server down",
+  "slow_dd": "Demand drafts are slow",
+  "lunch": "Counter closed at lunch",
+  "seating": "Seniors: seating / separate line",
+  "staff": "Staff behaviour / guidance",
+  "long_wait": "Long wait / crowd",
+  "positive": "Praise"
+ },
+ "branches": {
+  "B01": {
+   "n": 1199,
+   "avg_rating": 4.09,
+   "negative_share": 0.103,
+   "comments": 241,
+   "themes": {
+    "walkout": 65,
+    "long_wait": 12,
+    "lunch": 6,
+    "slow_dd": 5,
+    "documents": 3,
+    "staff": 1,
+    "seating": 1
+   },
+   "praise": 148,
+   "examples": {
+    "walkout": [
+     {
+      "text": "11 nimisha aadru kelsa aagilla, vaapas hode.",
+      "rating": 1,
+      "date": "2026-09-29",
+      "service": "Cash deposit / withdrawal"
+     },
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 1,
+      "date": "2026-09-28",
+      "service": "Cash deposit / withdrawal"
+     },
+     {
+      "text": "6 nimisha aadru kelsa aagilla, vaapas hode.",
+      "rating": 1,
+      "date": "2026-09-28",
+      "service": "Passbook & enquiry"
+     }
+    ],
+    "long_wait": [
+     {
+      "text": "Queue tumba doddadittu, 22 nimisha wait maadide.",
+      "rating": 3,
+      "date": "2026-09-29",
+      "service": "Cash deposit / withdrawal"
+     },
+     {
+      "text": "Waited 27 minutes for cash deposit. Too slow.",
+      "rating": 4,
+      "date": "2026-09-29",
+      "service": "Cash deposit / withdrawal"
+     },
+     {
+      "text": "Queue tumba doddadittu, 21 nimisha wait maadide.",
+      "rating": 4,
+      "date": "2026-09-28",
+      "service": "Cash deposit / withdrawal"
+     }
+    ],
+    "lunch": [
+     {
+      "text": "At lunch time only one counter was open.",
+      "rating": 2,
+      "date": "2026-09-29",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Lunch time alli counter close maadidru.",
+      "rating": 4,
+      "date": "2026-09-16",
+      "service": "Cash deposit / withdrawal"
+     },
+     {
+      "text": "Lunch time alli counter close maadidru.",
+      "rating": 4,
+      "date": "2026-09-04",
+      "service": "Loans, FD & advisory"
+     }
+    ],
+    "slow_dd": [
+     {
+      "text": "DD maadlikke tumba time togondru.",
+      "rating": 4,
+      "date": "2026-09-28",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "DD maadlikke tumba time togondru.",
+      "rating": 4,
+      "date": "2026-09-25",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "Why does a DD take so long when NEFT is quick?",
+      "rating": 5,
+      "date": "2026-09-11",
+      "service": "DD / NEFT / cheques"
+     }
+    ],
+    "documents": [
+     {
+      "text": "Kaunse documents chahiye pehle nahi bataya, phir se aana padega.",
+      "rating": 4,
+      "date": "2026-09-30",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "Rejected for a missing proof, wasted a trip.",
+      "rating": 3,
+      "date": "2026-09-23",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "Came a second time because nobody told me which documents to bring.",
+      "rating": 3,
+      "date": "2026-09-16",
+      "service": "Pension & life certificate"
+     }
+    ],
+    "staff": [
+     {
+      "text": "Nobody at the enquiry desk to guide.",
+      "rating": 2,
+      "date": "2026-09-07",
+      "service": "Account services & KYC"
+     }
+    ]
+   },
+   "weekly": {
+    "weeks": [
+     "2026-04-06",
+     "2026-04-13",
+     "2026-04-20",
+     "2026-04-27",
+     "2026-05-04",
+     "2026-05-11",
+     "2026-05-18",
+     "2026-05-25",
+     "2026-06-01",
+     "2026-06-08",
+     "2026-06-15",
+     "2026-06-22",
+     "2026-06-29",
+     "2026-07-06",
+     "2026-07-13",
+     "2026-07-20",
+     "2026-07-27",
+     "2026-08-03",
+     "2026-08-10",
+     "2026-08-17",
+     "2026-08-24",
+     "2026-08-31",
+     "2026-09-07",
+     "2026-09-14",
+     "2026-09-21",
+     "2026-09-28"
+    ],
+    "rating": [
+     4.2,
+     3.86,
+     4.24,
+     3.99,
+     3.92,
+     4.19,
+     4.33,
+     4.07,
+     4.11,
+     4.09,
+     4.12,
+     4.32,
+     4.13,
+     3.94,
+     4.2,
+     4.26,
+     4.22,
+     3.78,
+     3.97,
+     4.2,
+     4.24,
+     3.91,
+     3.94,
+     4.29,
+     4.23,
+     4.27
+    ]
+   },
+   "lunch_by_hour": {
+    "13": 4,
+    "14": 2
+   }
+  },
+  "B02": {
+   "n": 866,
+   "avg_rating": 4.06,
+   "negative_share": 0.106,
+   "comments": 206,
+   "themes": {
+    "walkout": 49,
+    "long_wait": 15,
+    "slow_dd": 8,
+    "documents": 8,
+    "lunch": 1,
+    "seating": 1
+   },
+   "praise": 124,
+   "examples": {
+    "walkout": [
+     {
+      "text": "Left without being served after 5 minutes.",
+      "rating": 1,
+      "date": "2026-09-28",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 2,
+      "date": "2026-09-28",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "Left without being served after 14 minutes.",
+      "rating": 1,
+      "date": "2026-09-28",
+      "service": "DD / NEFT / cheques"
+     }
+    ],
+    "long_wait": [
+     {
+      "text": "Took more than 17 minutes just for passbook & enquiry.",
+      "rating": 3,
+      "date": "2026-09-28",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Very long queue today, waited 19 min.",
+      "rating": 3,
+      "date": "2026-09-28",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Waited 20 minutes for pension & life certificate. Too slow.",
+      "rating": 3,
+      "date": "2026-09-28",
+      "service": "Pension & life certificate"
+     }
+    ],
+    "slow_dd": [
+     {
+      "text": "DD maadlikke tumba time togondru.",
+      "rating": 3,
+      "date": "2026-09-28",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "DD banane mein bahut time laga.",
+      "rating": 3,
+      "date": "2026-09-23",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "DD maadlikke tumba time togondru.",
+      "rating": 2,
+      "date": "2026-09-23",
+      "service": "DD / NEFT / cheques"
+     }
+    ],
+    "documents": [
+     {
+      "text": "Document list was not given earlier, have to come again.",
+      "rating": 3,
+      "date": "2026-09-28",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "Document list was not given earlier, have to come again.",
+      "rating": 4,
+      "date": "2026-09-28",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Came a second time because nobody told me which documents to bring.",
+      "rating": 4,
+      "date": "2026-09-24",
+      "service": "Account services & KYC"
+     }
+    ],
+    "lunch": [
+     {
+      "text": "Counter closed for lunch while everyone was waiting.",
+      "rating": 4,
+      "date": "2026-09-05",
+      "service": "Account services & KYC"
+     }
+    ],
+    "seating": [
+     {
+      "text": "No place to sit for senior citizens.",
+      "rating": 4,
+      "date": "2026-09-25",
+      "service": "Cash deposit / withdrawal"
+     }
+    ]
+   },
+   "weekly": {
+    "weeks": [
+     "2026-04-06",
+     "2026-04-13",
+     "2026-04-20",
+     "2026-04-27",
+     "2026-05-04",
+     "2026-05-11",
+     "2026-05-18",
+     "2026-05-25",
+     "2026-06-01",
+     "2026-06-08",
+     "2026-06-15",
+     "2026-06-22",
+     "2026-06-29",
+     "2026-07-06",
+     "2026-07-13",
+     "2026-07-20",
+     "2026-07-27",
+     "2026-08-03",
+     "2026-08-10",
+     "2026-08-17",
+     "2026-08-24",
+     "2026-08-31",
+     "2026-09-07",
+     "2026-09-14",
+     "2026-09-21",
+     "2026-09-28"
+    ],
+    "rating": [
+     4.2,
+     3.8,
+     4.0,
+     3.89,
+     4.07,
+     4.12,
+     4.02,
+     3.52,
+     3.91,
+     4.04,
+     4.18,
+     3.88,
+     3.99,
+     3.56,
+     3.81,
+     4.18,
+     4.11,
+     4.01,
+     4.12,
+     4.25,
+     4.12,
+     3.95,
+     4.2,
+     3.98,
+     3.93,
+     3.99
+    ]
+   },
+   "lunch_by_hour": {
+    "13": 1
+   }
+  },
+  "B03": {
+   "n": 1084,
+   "avg_rating": 3.81,
+   "negative_share": 0.178,
+   "comments": 247,
+   "themes": {
+    "walkout": 91,
+    "long_wait": 19,
+    "documents": 7,
+    "seating": 5,
+    "lunch": 4,
+    "slow_dd": 4,
+    "system_down": 2
+   },
+   "praise": 115,
+   "examples": {
+    "walkout": [
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 1,
+      "date": "2026-09-30",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 1,
+      "date": "2026-09-29",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "26 minute baad bhi number nahi aaya, wapas chala gaya.",
+      "rating": 1,
+      "date": "2026-09-29",
+      "service": "Account services & KYC"
+     }
+    ],
+    "long_wait": [
+     {
+      "text": "Counter alli tumba rush idittu, bega aagalilla.",
+      "rating": 5,
+      "date": "2026-09-29",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Only 5 counters working and a huge crowd.",
+      "rating": 3,
+      "date": "2026-09-29",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "The wait is too long, 32 minutes for passbook & enquiry.",
+      "rating": 2,
+      "date": "2026-09-28",
+      "service": "Passbook & enquiry"
+     }
+    ],
+    "documents": [
+     {
+      "text": "Yaava document beku antha modle heLilla, matte barbeku.",
+      "rating": 2,
+      "date": "2026-09-29",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "Document list was not given earlier, have to come again.",
+      "rating": 2,
+      "date": "2026-09-24",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "Document illa antha vaapas kalisidru.",
+      "rating": 3,
+      "date": "2026-09-22",
+      "service": "Account services & KYC"
+     }
+    ],
+    "seating": [
+     {
+      "text": "Hiriyarige kootkolloke jaaga illa.",
+      "rating": 4,
+      "date": "2026-09-22",
+      "service": "Account services & KYC"
+     },
+     {
+      "text": "Elderly people standing in the queue for long.",
+      "rating": 3,
+      "date": "2026-09-16",
+      "service": "Pension & life certificate"
+     },
+     {
+      "text": "Please give a separate line for senior citizens.",
+      "rating": 3,
+      "date": "2026-09-02",
+      "service": "Passbook & enquiry"
+     }
+    ],
+    "lunch": [
+     {
+      "text": "At lunch time only one counter was open.",
+      "rating": 3,
+      "date": "2026-09-28",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "At lunch time only one counter was open.",
+      "rating": 5,
+      "date": "2026-09-22",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "At lunch time only one counter was open.",
+      "rating": 4,
+      "date": "2026-09-22",
+      "service": "Pension & life certificate"
+     }
+    ],
+    "slow_dd": [
+     {
+      "text": "Why does a DD take so long when NEFT is quick?",
+      "rating": 4,
+      "date": "2026-09-25",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "Demand draft process is too slow.",
+      "rating": 3,
+      "date": "2026-09-23",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "The wait is too long, 29 minutes for dd.",
+      "rating": 3,
+      "date": "2026-09-21",
+      "service": "DD / NEFT / cheques"
+     }
+    ]
+   },
+   "weekly": {
+    "weeks": [
+     "2026-04-06",
+     "2026-04-13",
+     "2026-04-20",
+     "2026-04-27",
+     "2026-05-04",
+     "2026-05-11",
+     "2026-05-18",
+     "2026-05-25",
+     "2026-06-01",
+     "2026-06-08",
+     "2026-06-15",
+     "2026-06-22",
+     "2026-06-29",
+     "2026-07-06",
+     "2026-07-13",
+     "2026-07-20",
+     "2026-07-27",
+     "2026-08-03",
+     "2026-08-10",
+     "2026-08-17",
+     "2026-08-24",
+     "2026-08-31",
+     "2026-09-07",
+     "2026-09-14",
+     "2026-09-21",
+     "2026-09-28"
+    ],
+    "rating": [
+     3.98,
+     3.42,
+     3.8,
+     3.71,
+     3.68,
+     3.81,
+     3.93,
+     3.96,
+     3.89,
+     3.93,
+     4.08,
+     4.22,
+     3.97,
+     3.88,
+     3.9,
+     4.03,
+     3.87,
+     4.3,
+     4.26,
+     3.88,
+     4.14,
+     3.39,
+     4.17,
+     3.97,
+     4.15,
+     3.63
+    ]
+   },
+   "lunch_by_hour": {
+    "13": 3,
+    "14": 1
+   }
+  },
+  "B04": {
+   "n": 849,
+   "avg_rating": 3.77,
+   "negative_share": 0.192,
+   "comments": 180,
+   "themes": {
+    "walkout": 85,
+    "long_wait": 11,
+    "documents": 4,
+    "seating": 2,
+    "slow_dd": 2,
+    "lunch": 1
+   },
+   "praise": 75,
+   "examples": {
+    "walkout": [
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 1,
+      "date": "2026-09-30",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "27 nimisha aadru kelsa aagilla, vaapas hode.",
+      "rating": 1,
+      "date": "2026-09-30",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 1,
+      "date": "2026-09-29",
+      "service": "Loans, FD & advisory"
+     }
+    ],
+    "long_wait": [
+     {
+      "text": "Counter alli tumba rush idittu, bega aagalilla.",
+      "rating": 3,
+      "date": "2026-09-30",
+      "service": "Pension & life certificate"
+     },
+     {
+      "text": "Only 5 counters working and a huge crowd.",
+      "rating": 4,
+      "date": "2026-09-29",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Counter alli tumba rush idittu, bega aagalilla.",
+      "rating": 4,
+      "date": "2026-09-28",
+      "service": "Account services & KYC"
+     }
+    ],
+    "documents": [
+     {
+      "text": "Document illa antha vaapas kalisidru.",
+      "rating": 2,
+      "date": "2026-09-21",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Rejected for a missing proof, wasted a trip.",
+      "rating": 3,
+      "date": "2026-09-18",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Yaava document beku antha modle heLilla, matte barbeku.",
+      "rating": 3,
+      "date": "2026-09-08",
+      "service": "Account services & KYC"
+     }
+    ],
+    "seating": [
+     {
+      "text": "Senior citizens ge bere line beku.",
+      "rating": 4,
+      "date": "2026-09-21",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Elderly people standing in the queue for long.",
+      "rating": 4,
+      "date": "2026-09-01",
+      "service": "Cash deposit / withdrawal"
+     }
+    ],
+    "slow_dd": [
+     {
+      "text": "DD took very long to issue.",
+      "rating": 4,
+      "date": "2026-09-10",
+      "service": "DD / NEFT / cheques"
+     },
+     {
+      "text": "Why does a DD take so long when NEFT is quick?",
+      "rating": 5,
+      "date": "2026-09-07",
+      "service": "DD / NEFT / cheques"
+     }
+    ],
+    "lunch": [
+     {
+      "text": "Lunch time alli counter close maadidru.",
+      "rating": 4,
+      "date": "2026-09-22",
+      "service": "Cash deposit / withdrawal"
+     }
+    ]
+   },
+   "weekly": {
+    "weeks": [
+     "2026-04-06",
+     "2026-04-13",
+     "2026-04-20",
+     "2026-04-27",
+     "2026-05-04",
+     "2026-05-11",
+     "2026-05-18",
+     "2026-05-25",
+     "2026-06-01",
+     "2026-06-08",
+     "2026-06-15",
+     "2026-06-22",
+     "2026-06-29",
+     "2026-07-06",
+     "2026-07-13",
+     "2026-07-20",
+     "2026-07-27",
+     "2026-08-03",
+     "2026-08-10",
+     "2026-08-17",
+     "2026-08-24",
+     "2026-08-31",
+     "2026-09-07",
+     "2026-09-14",
+     "2026-09-21",
+     "2026-09-28"
+    ],
+    "rating": [
+     4.15,
+     4.35,
+     3.9,
+     3.95,
+     3.61,
+     4.2,
+     4.21,
+     4.01,
+     3.68,
+     3.85,
+     3.77,
+     3.66,
+     2.87,
+     2.9,
+     3.06,
+     3.1,
+     2.89,
+     3.14,
+     3.11,
+     3.54,
+     3.68,
+     3.63,
+     4.07,
+     3.95,
+     3.63,
+     3.77
+    ]
+   },
+   "lunch_by_hour": {
+    "14": 1
+   }
+  },
+  "B05": {
+   "n": 516,
+   "avg_rating": 3.97,
+   "negative_share": 0.136,
+   "comments": 93,
+   "themes": {
+    "walkout": 30,
+    "long_wait": 10,
+    "system_down": 1,
+    "documents": 1,
+    "seating": 1
+   },
+   "praise": 50,
+   "examples": {
+    "walkout": [
+     {
+      "text": "16 nimisha aadru kelsa aagilla, vaapas hode.",
+      "rating": 2,
+      "date": "2026-09-30",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 1,
+      "date": "2026-09-30",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Could not wait anymore, went back without my work done.",
+      "rating": 2,
+      "date": "2026-09-29",
+      "service": "Passbook & enquiry"
+     }
+    ],
+    "long_wait": [
+     {
+      "text": "Tumba late aaytu, 21 nimisha kaaybeku aaytu.",
+      "rating": 5,
+      "date": "2026-09-30",
+      "service": "Passbook & enquiry"
+     },
+     {
+      "text": "Only 4 counters working and a huge crowd.",
+      "rating": 2,
+      "date": "2026-09-25",
+      "service": "Loans, FD & advisory"
+     },
+     {
+      "text": "Tumba late aaytu, 22 nimisha kaaybeku aaytu.",
+      "rating": 4,
+      "date": "2026-09-18",
+      "service": "Loans, FD & advisory"
+     }
+    ],
+    "system_down": [
+     {
+      "text": "System slow, link failure again.",
+      "rating": 4,
+      "date": "2026-09-18",
+      "service": "Passbook & enquiry"
+     }
+    ],
+    "documents": [
+     {
+      "text": "Came a second time because nobody told me which documents to bring.",
+      "rating": 3,
+      "date": "2026-09-25",
+      "service": "Pension & life certificate"
+     }
+    ],
+    "seating": [
+     {
+      "text": "Senior citizens ge bere line beku.",
+      "rating": 3,
+      "date": "2026-09-29",
+      "service": "Pension & life certificate"
+     }
+    ]
+   },
+   "weekly": {
+    "weeks": [
+     "2026-04-06",
+     "2026-04-13",
+     "2026-04-20",
+     "2026-04-27",
+     "2026-05-04",
+     "2026-05-11",
+     "2026-05-18",
+     "2026-05-25",
+     "2026-06-01",
+     "2026-06-08",
+     "2026-06-15",
+     "2026-06-22",
+     "2026-06-29",
+     "2026-07-06",
+     "2026-07-13",
+     "2026-07-20",
+     "2026-07-27",
+     "2026-08-03",
+     "2026-08-10",
+     "2026-08-17",
+     "2026-08-24",
+     "2026-08-31",
+     "2026-09-07",
+     "2026-09-14",
+     "2026-09-21",
+     "2026-09-28"
+    ],
+    "rating": [
+     4.02,
+     3.96,
+     4.12,
+     3.81,
+     4.08,
+     4.04,
+     3.97,
+     3.58,
+     3.75,
+     3.84,
+     3.59,
+     3.98,
+     3.78,
+     4.01,
+     4.15,
+     3.86,
+     3.89,
+     3.83,
+     3.82,
+     4.02,
+     3.76,
+     4.16,
+     3.69,
+     3.93,
+     4.0,
+     4.07
+    ]
+   },
+   "lunch_by_hour": {}
+  }
+ },
+ "rating_by_wait": [
+  {
+   "bucket": "0-5",
+   "rating": 4.53,
+   "n": 43767
+  },
+  {
+   "bucket": "5-15",
+   "rating": 4.22,
+   "n": 15472
+  },
+  {
+   "bucket": "15-30",
+   "rating": 3.7,
+   "n": 7804
+  },
+  {
+   "bucket": "30-60",
+   "rating": 2.91,
+   "n": 3430
+  },
+  {
+   "bucket": "60+",
+   "rating": 1.58,
+   "n": 244
+  }
+ ],
+ "slow_processes": [
+  {
+   "service": "DD / NEFT / cheques",
+   "subtype": "Demand Draft",
+   "median_min": 9.4,
+   "category_median": 4.6,
+   "ratio": 2.04,
+   "volume_per_day": 49.8,
+   "complaints_30d": 21,
+   "counter_hours_per_month": 92.6
+  },
+  {
+   "service": "Account services & KYC",
+   "subtype": "Account Opening",
+   "median_min": 9.4,
+   "category_median": 5.1,
+   "ratio": 1.82,
+   "volume_per_day": 35.7,
+   "complaints_30d": 2,
+   "counter_hours_per_month": 58.8
+  },
+  {
+   "service": "Loans, FD & advisory",
+   "subtype": "NRI Services",
+   "median_min": 14.9,
+   "category_median": 10.6,
+   "ratio": 1.41,
+   "volume_per_day": 10.7,
+   "complaints_30d": 3,
+   "counter_hours_per_month": 18.0
+  }
+ ],
+ "repeat_visits": [
+  {
+   "subtype": "Address Change",
+   "fail_rate": 0.108,
+   "failed_visits_per_month": 47.7
+  },
+  {
+   "subtype": "KYC Update",
+   "fail_rate": 0.102,
+   "failed_visits_per_month": 144.3
+  },
+  {
+   "subtype": "Nominee Registration",
+   "fail_rate": 0.101,
+   "failed_visits_per_month": 71.0
+  },
+  {
+   "subtype": "Mobile Number Update",
+   "fail_rate": 0.1,
+   "failed_visits_per_month": 113.3
+  },
+  {
+   "subtype": "Account Opening",
+   "fail_rate": 0.1,
+   "failed_visits_per_month": 88.3
+  }
+ ],
+ "callbacks": [
+  {
+   "branch": "B01",
+   "date": "2026-09-28",
+   "token": "G-115",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "6 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B02",
+   "date": "2026-09-28",
+   "token": "G-091",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "Left without being served after 5 minutes.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-036",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "80+",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "C-053",
+   "service": "Cash deposit / withdrawal",
+   "rating": 1,
+   "comment": "Left without being served after 5 minutes.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-151",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "12 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "80+",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-28",
+   "token": "L-008",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "4 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-28",
+   "token": "G-068",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "Left without being served after 7 minutes.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": true,
+   "age_band": "80+",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-30",
+   "token": "C-039",
+   "service": "Cash deposit / withdrawal",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": false,
+   "age_band": "45-59",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-096",
+   "service": "Account services & KYC",
+   "rating": 1,
+   "comment": "4 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-154",
+   "service": "DD / NEFT / cheques",
+   "rating": 1,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": true,
+   "senior": false,
+   "age_band": "45-59",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-30",
+   "token": "G-113",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-30",
+   "token": "G-041",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "27 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B05",
+   "date": "2026-09-30",
+   "token": "G-042",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B01",
+   "date": "2026-09-29",
+   "token": "L-019",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "WhatsApp",
+   "walkout": false,
+   "hni": true,
+   "senior": false,
+   "age_band": "45-59",
+   "wait": 50.0
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-29",
+   "token": "G-088",
+   "service": "Account services & KYC",
+   "rating": 1,
+   "comment": "26 minute baad bhi number nahi aaya, wapas chala gaya.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B05",
+   "date": "2026-09-29",
+   "token": "G-045",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B01",
+   "date": "2026-09-28",
+   "token": "G-037",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B02",
+   "date": "2026-09-28",
+   "token": "L-024",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "Smiley button",
+   "walkout": false,
+   "hni": true,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": 50.0
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-067",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "18 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-080",
+   "service": "Pension & life certificate",
+   "rating": 2,
+   "comment": "Left without being served after 22 minutes.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "L-008",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-28",
+   "token": "G-161",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "60-79",
+   "wait": null
+  },
+  {
+   "branch": "B05",
+   "date": "2026-09-28",
+   "token": "G-060",
+   "service": "Pension & life certificate",
+   "rating": 2,
+   "comment": "18 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": true,
+   "age_band": "80+",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-30",
+   "token": "G-023",
+   "service": "Account services & KYC",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-30",
+   "token": "G-044",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B05",
+   "date": "2026-09-30",
+   "token": "G-025",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B05",
+   "date": "2026-09-30",
+   "token": "L-009",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "16 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B05",
+   "date": "2026-09-30",
+   "token": "L-016",
+   "service": "Loans, FD & advisory",
+   "rating": 1,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "45-59",
+   "wait": null
+  },
+  {
+   "branch": "B01",
+   "date": "2026-09-29",
+   "token": "C-063",
+   "service": "Cash deposit / withdrawal",
+   "rating": 1,
+   "comment": "11 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B02",
+   "date": "2026-09-29",
+   "token": "L-013",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-29",
+   "token": "G-046",
+   "service": "Passbook & enquiry",
+   "rating": 1,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-29",
+   "token": "G-061",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "45-59",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-29",
+   "token": "G-089",
+   "service": "DD / NEFT / cheques",
+   "rating": 1,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-29",
+   "token": "G-094",
+   "service": "DD / NEFT / cheques",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B03",
+   "date": "2026-09-29",
+   "token": "G-141",
+   "service": "Account services & KYC",
+   "rating": 1,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-29",
+   "token": "L-015",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "11 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "45-59",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-29",
+   "token": "G-062",
+   "service": "DD / NEFT / cheques",
+   "rating": 2,
+   "comment": "23 nimisha aadru kelsa aagilla, vaapas hode.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-29",
+   "token": "G-069",
+   "service": "Passbook & enquiry",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-29",
+   "token": "L-023",
+   "service": "Loans, FD & advisory",
+   "rating": 1,
+   "comment": "Could not wait anymore, went back without my work done.",
+   "theme": "Left without service",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "30-44",
+   "wait": null
+  },
+  {
+   "branch": "B04",
+   "date": "2026-09-29",
+   "token": "L-027",
+   "service": "Loans, FD & advisory",
+   "rating": 2,
+   "comment": "",
+   "theme": "",
+   "channel": "IVR callback",
+   "walkout": true,
+   "hni": false,
+   "senior": false,
+   "age_band": "18-29",
+   "wait": null
+  }
+ ],
+ "live_today": [
+  {
+   "branch": "B04",
+   "time": "10:39",
+   "token": "C-009",
+   "counter": "C1",
+   "service": "Cash deposit / withdrawal",
+   "rating": 2,
+   "wait": 14.0,
+   "senior": true,
+   "hni": false
+  },
+  {
+   "branch": "B04",
+   "time": "14:28",
+   "token": "L-006",
+   "counter": "E1",
+   "service": "Loans, FD & advisory",
+   "rating": 1,
+   "wait": 76.0,
+   "senior": false,
+   "hni": false
+  }
+ ]
+}

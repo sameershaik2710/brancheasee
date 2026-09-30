@@ -1,0 +1,123 @@
+{
+ "service_mean": {
+  "ACCOUNT": 6.52,
+  "CASH": 6.05,
+  "LOAN": 12.73,
+  "PASSBOOK": 2.15,
+  "PENSION": 6.32,
+  "REMIT": 6.45
+ },
+ "within_hour": {
+  "10": {
+   "0": 0.5084,
+   "1": 0.1601,
+   "2": 0.1631,
+   "3": 0.1684
+  },
+  "11": {
+   "0": 0.2515,
+   "1": 0.247,
+   "2": 0.2545,
+   "3": 0.247
+  },
+  "12": {
+   "0": 0.2541,
+   "1": 0.2466,
+   "2": 0.2534,
+   "3": 0.2459
+  },
+  "13": {
+   "0": 0.2506,
+   "1": 0.2461,
+   "2": 0.2529,
+   "3": 0.2503
+  },
+  "14": {
+   "0": 0.2567,
+   "1": 0.2474,
+   "2": 0.2518,
+   "3": 0.244
+  },
+  "15": {
+   "0": 0.2569,
+   "1": 0.254,
+   "2": 0.2576,
+   "3": 0.2315
+  }
+ },
+ "staff_speed": {
+  "DEV01": 1.013,
+  "DEV02": 1.016,
+  "DEV03": 0.982,
+  "DEV04": 1.029,
+  "HSK01": 1.019,
+  "HSK02": 1.028,
+  "HSK03": 0.982,
+  "HSK04": 0.982,
+  "HSK05": 1.013,
+  "JAY01": 0.915,
+  "JAY02": 1.025,
+  "JAY03": 1.016,
+  "JAY04": 0.984,
+  "JAY05": 0.982,
+  "JAY06": 1.135,
+  "JAY07": 0.96,
+  "JAY08": 0.982,
+  "MAL01": 0.93,
+  "MAL02": 1.0,
+  "MAL03": 1.019,
+  "MAL04": 0.982,
+  "MAL05": 0.985,
+  "MAL06": 1.12,
+  "MAL07": 0.979,
+  "WHF01": 1.028,
+  "WHF02": 1.016,
+  "WHF03": 0.981,
+  "WHF04": 0.938,
+  "WHF05": 0.973,
+  "WHF06": 1.093,
+  "WHF07": 0.982
+ },
+ "incomplete_rate": {
+  "Account Opening": 0.1025,
+  "Address Change": 0.1006,
+  "Balance Enquiry": 0.0,
+  "Cash Deposit": 0.0,
+  "Cash Withdrawal": 0.0,
+  "Cheque Deposit": 0.0,
+  "Crop Loan (KCC)": 0.0609,
+  "Demand Draft": 0.0,
+  "FD Opening / Renewal": 0.069,
+  "Gold Loan": 0.0658,
+  "Home Loan Enquiry": 0.0633,
+  "KYC Update": 0.0984,
+  "Life Certificate": 0.0521,
+  "Mobile Number Update": 0.1049,
+  "NEFT/RTGS": 0.0,
+  "NRI Services": 0.0613,
+  "Nominee Registration": 0.1038,
+  "Passbook Update": 0.0,
+  "Pension Query": 0.0507
+ },
+ "subtype_median": {
+  "Account Opening": 9.15,
+  "Address Change": 4.65,
+  "Balance Enquiry": 1.62,
+  "Cash Deposit": 5.42,
+  "Cash Withdrawal": 5.17,
+  "Cheque Deposit": 2.4,
+  "Crop Loan (KCC)": 12.67,
+  "Demand Draft": 9.42,
+  "FD Opening / Renewal": 6.92,
+  "Gold Loan": 10.42,
+  "Home Loan Enquiry": 14.03,
+  "KYC Update": 5.78,
+  "Life Certificate": 5.42,
+  "Mobile Number Update": 3.47,
+  "NEFT/RTGS": 3.5,
+  "NRI Services": 15.17,
+  "Nominee Registration": 4.08,
+  "Passbook Update": 2.0,
+  "Pension Query": 5.95
+ }
+}

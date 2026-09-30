@@ -1,0 +1,32 @@
+staff_id,branch_code,name,role,home_desk,skills
+JAY01,B01,Lakshmi N,Cashier (senior),CASH,CASH:0.9
+JAY02,B01,Ravi K,Cashier,CASH,CASH:1.0|GENERAL:1.1
+JAY03,B01,Manjunath B,Cashier,CASH,CASH:1.0
+JAY04,B01,Priya S,Customer service officer,GENERAL,GENERAL:1.0|CASH:1.1
+JAY05,B01,Arun R,Customer service officer,GENERAL,GENERAL:1.0
+JAY06,B01,Kavya H,Customer service associate,GENERAL,GENERAL:1.15
+JAY08,B01,Farida Z,Customer service officer,GENERAL,GENERAL:1.0|CASH:1.15
+JAY07,B01,Deepa M,Loans & advisory officer,EXPERT,EXPERT:0.9|GENERAL:1.0
+WHF01,B02,Rohan D,Cashier,CASH,CASH:1.0|GENERAL:1.1
+WHF02,B02,Sneha P,Cashier,CASH,CASH:1.0
+WHF03,B02,Imran A,Customer service officer,GENERAL,GENERAL:1.0|CASH:1.05
+WHF04,B02,Nisha V,Customer service officer,GENERAL,GENERAL:0.95
+WHF05,B02,Karthik M,Loans & advisory officer,EXPERT,EXPERT:0.9|GENERAL:1.0
+WHF06,B02,Ananya R,NRI & wealth officer,EXPERT,EXPERT:1.0
+WHF07,B02,Farhan Q,Floating officer,GENERAL,GENERAL:1.0|CASH:1.0
+MAL01,B03,Shankar G,Cashier (senior),CASH,CASH:0.9|GENERAL:1.1
+MAL02,B03,Rekha T,Cashier,CASH,CASH:1.0
+MAL03,B03,Venkatesh L,Cashier,CASH,CASH:1.0
+MAL04,B03,Meera J,Customer service officer,GENERAL,GENERAL:1.0|CASH:1.1
+MAL05,B03,Sanjay P,Customer service officer,GENERAL,GENERAL:1.0
+MAL06,B03,Pooja K,Customer service associate,GENERAL,GENERAL:1.15
+MAL07,B03,Gopal S,Loans & advisory officer,EXPERT,EXPERT:0.9|GENERAL:1.0
+HSK01,B04,Nagaraj C,Cashier,CASH,CASH:1.0
+HSK02,B04,Savitha R,Cashier,CASH,CASH:1.0|GENERAL:1.1
+HSK03,B04,Mohan K,Customer service officer,GENERAL,GENERAL:1.0|CASH:1.1
+HSK04,B04,Asha B,Customer service officer,GENERAL,GENERAL:1.0
+HSK05,B04,Harish N,Agri & loans officer,EXPERT,EXPERT:0.95|GENERAL:1.0
+DEV01,B05,Basavaraj H,Cashier,CASH,CASH:1.0|GENERAL:1.1
+DEV02,B05,Shobha M,Cashier,CASH,CASH:1.0
+DEV03,B05,Ramesh Y,Customer service officer,GENERAL,GENERAL:1.0|CASH:1.1
+DEV04,B05,Girish A,Agri & loans officer,EXPERT,EXPERT:0.95|GENERAL:1.05

@@ -1,0 +1,24 @@
+{
+ "raw_rows": 473593,
+ "duplicates_removed": 1417,
+ "timestamps_alt_format_fixed": 14094,
+ "clock_skew_fixed": 2606,
+ "raw_service_labels": 132,
+ "service_subtypes": 19,
+ "service_categories": 6,
+ "unmapped_labels": 0,
+ "unclosed_tokens_imputed": 4408,
+ "customers_anonymised": 44319,
+ "pii_columns_dropped": [
+  "cif",
+  "mobile",
+  "year_of_birth"
+ ],
+ "appointments": 34062,
+ "no_show_rate": 0.18,
+ "feedback_records": 82480,
+ "feedback_with_text": 18120,
+ "tokens_clean": 472176,
+ "walkout_rate": 0.081,
+ "avg_wait_served": 6.38
+}
